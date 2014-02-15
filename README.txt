@@ -1,4 +1,5 @@
-These are the files to run the KNGP Algorithm. The KNGP code, written in R, 
+Overview
+This repository contains the files for the KNGP algorithm. The KNGP code, written in R, 
 can be found at the following GitHub Gist URL:  https://gist.github.com/kimmelcp/9025360.
 Alternatively, there is also an online app for the KNGP algorithm at the 
 following URL: http://spark.rstudio.com/kimmelcp/KNGPApp/.  Note, the online app can not handle
@@ -26,3 +27,7 @@ proteins in this repository represents all 17,691 unique proteins in UniProt as 
 Root node set: A set of gene identifiers that is associated with the disease of interest and is a 
 subset of the candidate node set.  For this repostiry, the root nodes genes can be found in the folder 
 "SeedListCSVFormat".  There are a total of 19 diseases represented.  
+
+In addition to these data files, the code for the KNGP algorithm is also available in the folder “KNGPCode”.  
+
+
