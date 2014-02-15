@@ -12,7 +12,8 @@ nodes in the knowledge network, and an entry in it represents the link weight be
 nodes specified by the row number and column number.  The link weight matrix in this repository represents the 
 similarity between all 17,691 proteins in UniProt.  The actual link weights are derived by combining known 
 protein interactions and predicted protein-protein interactions along with similarity values calculated
-from the Cellular Component Gene Ontology (GO).    
+from the Cellular Component Gene Ontology (GO).  Note that this file is so large (>1 GB) that is was first compressed,
+so the user should un-zip the file.      
 
 Node knowledge vector: The node knowledge vector is a n dimensional vector where n is 
 the number of nodes in the knowledge network, and an entry in it represents the node weight 
