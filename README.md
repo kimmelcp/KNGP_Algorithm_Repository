@@ -25,8 +25,7 @@ the number of nodes in the knowledge network, and an entry in it represents the 
 associated with the corresponding node.  The node weights in this repository represents the number of Gene Ontology
 terms associated with each of the unique 17,691 proteins.  
 
-Candidate node set: Set of n protein identifiers that correspond to the nodes in the node knowledge vector.  The
-proteins in this repository represents all 17,691 unique proteins in UniProt as of March 2011.   
+Candidate node set: Set of n protein identifiers (the gene identifier list) that correspond to the nodes in the node knowledge vector.  The proteins in this repository represents all 17,691 unique proteins in UniProt as of March 2011.   
 
 Root node set: A set of gene identifiers that is associated with the disease of interest and is a 
 subset of the candidate node set.  For this repostiry, the root nodes genes can be found in the folder 
