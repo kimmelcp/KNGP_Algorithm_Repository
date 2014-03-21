@@ -94,13 +94,13 @@ inference <- function(TransitionProbMatrix,priorProbMatrix)
 #Get the transition probability matrix
 getTransitionProbMatrix <- function(TransitionProbMatrix,sumMatrix)
 {
-  for (r in 1:dim(TransitionProbMatrix)[1])
+  
+  for (c in 1:dim(TransitionProbMatrix)[1])
   {
-    for (c in 1:dim(TransitionProbMatrix)[1])
-    {
-      TransitionProbMatrix[r,c] <- TransitionProbMatrix[r,c]/sumMatrix[c]
-    }
+    if (sumMatrix[c]!=0) TransitionProbMatrix[,c] <- TransitionProbMatrix[,c]/sumMatrix[c] else
+      TransitionProbMatrix[,c] <- rep(0,dim(TransitionProbMatrix)[1])  
   }
+  
   return(TransitionProbMatrix)
 }
 
