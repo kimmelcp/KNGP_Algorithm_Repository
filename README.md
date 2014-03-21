@@ -12,7 +12,7 @@ Node knowledge vector: The node knowledge vector is a n dimensional vector where
 
 Gene identifiers: List of n protein identifiers that correspond to the nodes in the node knowledge vector. The proteins in this repository represent all 17,691 unique proteins in UniProt as of March 2011.
 
-Root node set: A set of gene identifiers that is associated with the disease of interest and is a subset of the candidate node set. For this repository, the root nodes genes can be found in the folder "SeedListCSVFormat". There are a total of 19 diseases represented.
+Root node set: A set of gene identifiers that is associated with the disease of interest and is a subset of the candidate node set. For this repository, the root nodes genes can be found in the folder "RootNodeSets". There are a total of 19 diseases represented.
 
 In addition to these data files, the code for the KNGP algorithm is also available in the folder “KNGPCode”.
 
